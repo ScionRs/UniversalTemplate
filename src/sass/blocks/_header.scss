@@ -1,6 +1,5 @@
 .header{
   height: 120px;
-  border: 1px dotted blueviolet;
   font-family: "Open Sans Semibold",sans-serif;
   &__logo{
     font-family: "Open Sans",sans-serif;
@@ -14,7 +13,7 @@
   }
   &__menu{
     margin-top: 45px;
-    margin-left: 8em;
+    margin-left: 10em;
     display: flex;
     list-style-type: none;
     &-link{
