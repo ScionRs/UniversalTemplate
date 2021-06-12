@@ -1,0 +1,11 @@
+.header{
+  &__nav{
+    display: flex;
+    height: 120px;
+    border: 1px dotted red;
+  }
+  &__menu{
+    display: flex;
+    list-style-type: none;
+  }
+}
