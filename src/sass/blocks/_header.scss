@@ -1,11 +1,31 @@
 .header{
+  height: 120px;
+  border: 1px dotted blueviolet;
+  font-family: "Open Sans Semibold",sans-serif;
+  &__logo{
+    font-family: "Open Sans",sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
   &__nav{
     display: flex;
-    height: 120px;
-    border: 1px dotted red;
+    margin-left: 4em;
   }
   &__menu{
+    margin-top: 45px;
+    margin-left: 8em;
     display: flex;
     list-style-type: none;
+    &-link{
+      font-size: 20px;
+      color:$black;
+      font-weight: 400;
+      padding-right: 45px;
+      &:hover{
+        color: $green;
+        text-decoration: none;
+      }
+    }
   }
 }
