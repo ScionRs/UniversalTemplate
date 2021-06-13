@@ -1,0 +1,21 @@
+.about{
+  padding: $margintitle 0 125px 0;
+  &__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    text-align: center;
+  }
+  &__item{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title{
+    margin-top: 35px;
+  }
+  &__description{
+    margin-top: 15px;
+  }
+}

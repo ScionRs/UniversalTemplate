@@ -5,6 +5,7 @@
 //blocks
 @import "blocks/header";
 @import "blocks/promo";
+@import "blocks/about";
 .container {
   width: 1170px;
   padding-right: 15px;
@@ -12,3 +13,18 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+.title{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.9rem;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 28px;
+}
+
+
