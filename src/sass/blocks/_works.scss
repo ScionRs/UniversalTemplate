@@ -1,0 +1,116 @@
+.works {
+  padding: $margintitle 0;
+
+  &__tabs {
+    margin-top: 70px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+
+  &__tab {
+    font-family: "Open Sans Semibold",sans-serif;
+    width: 220px;
+    height: 50px;
+    border: 3px solid $green;
+    color: $green;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+    &-active {
+      color: #fff;
+      background-color: $green;
+      border: 3px solid $green;
+    }
+
+    &:hover {
+      background-color: $green;
+      color: white;
+    }
+  }
+  &__items{
+    display: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    &-active {
+      display: flex;
+    }
+  }
+  &__item{
+    width: 360px;
+    height: 360px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    &-1{
+      background: url('../../img/products/product_1.png') center (center / cover) no-repeat;
+    }
+    &-2{
+      background: url('../../img/products/product_2.png') center (center / cover) no-repeat;
+    }
+    &-3{
+      background: url('../../img/products/product_3.png') center (center / cover) no-repeat;
+    }
+    &-4{
+      background: url('../../img/products/product_4.png') center (center / cover) no-repeat;
+    }
+    &-5{
+      background: url('../../img/products/product_5.png') center (center / cover) no-repeat;
+    }
+    &-6{
+      background: url('../../img/products/product_6.png') center (center / cover) no-repeat;
+    }
+    &-title{
+      text-align: center;
+     padding-top: 140px;
+      display: none;
+      color: white;
+    }
+    &-subtitle{
+      text-align: center;
+      display: none;
+      color: white;
+    }
+    &:hover{
+      background-color: black;
+      opacity: 0.9;
+      z-index: 1;
+      .works__item-title{
+        display: block;
+        z-index: 1;
+      }
+      .works__item-subtitle{
+        display: block;
+        z-index: 1;
+      }
+    }
+  }
+  &__img{
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+  }
+  &__btn{
+    display: block;
+    font-family: "Robot - Bold",sans-serif;
+    background-color: $green;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 15px 30px;
+    border: 0;
+    outline: none;
+  }
+}

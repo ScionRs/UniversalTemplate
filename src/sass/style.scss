@@ -7,8 +7,10 @@
 @import "blocks/promo";
 @import "blocks/about";
 @import "blocks/services";
+@import "blocks/works";
+@import "blocks/media";
 .container {
-  width: 1170px;
+  max-width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
