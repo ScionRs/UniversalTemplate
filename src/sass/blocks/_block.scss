@@ -1,0 +1,39 @@
+.blog{
+  padding: $margintitle 0;
+  background-color: $lightgreen;
+  &__items{
+    margin-top: 130px;
+  }
+  &__item{
+    display: flex;
+    &:nth-child(2){
+      flex-direction: row-reverse;
+    }
+    &-title{
+      font-family: "Open Sans Semibold",sans-serif;
+      font-size: 25px;
+    }
+    &-subtitle{
+      font-family: "Open Sans Semibold",sans-serif;
+      margin: 15px 0;
+    }
+   &-modify{
+     margin-right: 5px;
+     font-size: 17px;
+   }
+    &-text{
+      font-family: "Open Sans",sans-serif;
+      font-size: 15px;
+    }
+  }
+  &__description{
+    margin-top: 65px;
+    margin-left: 30px;
+    width: 450px;
+  }
+}
+
+.fa-file{
+  margin-left: 40px;
+  margin-right: 5px;
+}
