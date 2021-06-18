@@ -145,7 +145,7 @@
       }
     }
     &__description{
-      width: 500px;
+      width: 100%;
       text-align: center;
       margin-left: 100px;
     }
@@ -153,7 +153,59 @@
 }
 
 @media (max-width: 500px){
-  body{
-    background-color: red;
+  .promo{
+    &__title{
+      font-size: 40px;
+    }
+    &__btn{
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .about{
+    &__items{
+      flex-direction: column;
+    }
+  }
+  .works{
+    &__tabs{
+      flex-direction: column;
+    }
+    &__tab{
+      width: 150px;
+      font-size: 10px;
+      margin-bottom: 15px;
+    }
+  }
+  .blog{
+    &__description{
+      margin-left: 0;
+    }
+  }
+  .pricing{
+    &__item{
+      width: auto;
+    }
+  }
+  .carousel{
+    &__inner{
+      div{
+        img{
+          width: 100%;
+        }
+      }
+    }
+    &__item{
+      margin-right: 0;
+    }
+  }
+  .contact{
+    &__items{
+      flex-direction: column;
+      align-items: center;
+    }
+    &__input{
+      width: 300px;
+    }
   }
 }
