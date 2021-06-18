@@ -54,6 +54,8 @@
     position: absolute;
     right: 10px;
     top: 6%;
+
+    border: 0;
     transform: translateY(-50%);
     width: 26px;
     height: 12px;
@@ -61,7 +63,8 @@
       display: block;
       height: 2px;
       width: 100%;
-      background-color: #ffffff;
+      color: black;
+      background-color: black;
       margin-bottom: 2px;
       transition: 0.5s all;
     }
@@ -70,12 +73,15 @@
         margin-bottom: -2px;
         &:nth-child(1) {
           transform: translateY(3px) rotate(-45deg);
+          color: black;
         }
         &:nth-child(2) {
           display: none;
+          color: black;
         }
         &:nth-child(3) {
           transform: translateY(3px) rotate(45deg);
+          color: black;
         }
       }
     }
