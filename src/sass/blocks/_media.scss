@@ -153,6 +153,14 @@
 }
 
 @media (max-width: 500px){
+  .header{
+    &__menu{
+      width: 70%;
+      &-item{
+        padding-left: 100px;
+      }
+    }
+  }
   .promo{
     &__title{
       font-size: 40px;
