@@ -18,6 +18,7 @@
     &:hover{
       box-shadow: 3px 3px 5px 3px rgba(34, 60, 80, 0.2);
       background-color: $green;
+      transition: 1s all;
       .services__icon{
         color: white;
       }
