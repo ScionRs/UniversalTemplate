@@ -1,5 +1,6 @@
 //base
 @import "base/variables";
+@import "base/animations";
 //libs
 @import "libs/bootstrap-reboot.min";
 @import "libs/slick";
@@ -43,3 +44,24 @@ html{
   margin-top: 28px;
 }
 
+.view__btn{
+  display: block;
+  font-family: "Robot - Bold",sans-serif;
+  background-color: $green;
+  color: white;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 15px 30px;
+  border: 3px solid $green;
+  outline: none;
+  &:hover{
+    background-color: transparent;
+    color:$green;
+    border: 3px solid $green;
+    box-shadow: 3px 3px 34px 0px $green;
+    transition: 1s all;
+  }
+}
